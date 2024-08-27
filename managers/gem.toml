@@ -1,0 +1,12 @@
+# Gems
+
+add = "gem install #:?"
+remove = "gem uninstall #:?"
+upgrade = "gem update"
+
+plural_name = "gems"
+
+hook_name = "gems"
+
+[config]
+many_args = true

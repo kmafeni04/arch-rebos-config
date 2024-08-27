@@ -1,0 +1,202 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
+imports = [
+    # "intensive_apps",
+]
+
+# Packages to be installed via the native package manager.
+[managers.system]
+items = [
+    "adw-gtk-theme",
+    "arandr",
+    "argouml-bin",
+    "auto-cpufreq",
+    "baobab",
+    "base",
+    "base-devel",
+    "bc",
+    "bitwarden",
+    "blueman",
+    "bluez-utils",
+    "broot",
+    "bspwm",
+    "btop",
+    "caffeine-ng",
+    "calf",
+    "composer",
+    "cups",
+    "dart-sass",
+    "docker",
+    "dockerfile-language-server-bin",
+    "downgrade",
+    "dunst",
+    "efibootmgr",
+    "epapirus-icon-theme",
+    "exfat-utils",
+    "gdm",
+    "gnome-backgrounds",
+    "gnome-calculator",
+    "gnome-calendar",
+    "gnome-characters",
+    "gnome-clocks",
+    "gnome-connections",
+    "gnome-contacts",
+    "gnome-font-viewer",
+    "gnome-logs",
+    "gnome-maps",
+    "gnome-music",
+    "gnome-shell-extensions",
+    "gnome-software",
+    "gnome-system-monitor",
+    "gnome-text-editor",
+    "gnome-tour",
+    "gnome-tweaks",
+    "gnome-user-docs",
+    "gnome-weather",
+    "gpaste",
+    "helix",
+    "i3lock",
+    "intel-ucode",
+    "lazygit",
+    "light",
+    "linux-lts",
+    "loupe",
+    "lua51",
+    "luarocks",
+    "nautilus",
+    "nemo-fileroller",
+    "nitrogen",
+    "nwg-look",
+    "openresty",
+    "openssl-1.1",
+    "orca",
+    "pamixer",
+    "pavucontrol",
+    "php-sqlite",
+    "picom",
+    "playerctl",
+    "polkit-gnome",
+    "polybar",
+    "postgresql",
+    "proton-vpn-gtk-app",
+    "rebos-git",
+    "redshift",
+    "rofi-wayland",
+    "sassc",
+    "scrot",
+    "shotwell",
+    "simple-scan",
+    "snapshot",
+    "sof-firmware",
+    "sqlitebrowser",
+    "stylua",
+    "sushi",
+    "swi-prolog",
+    "tailscale",
+    "totem",
+    "touchegg",
+    "transmission-gtk",
+    "tree",
+    "ttf-dejavu-nerd",
+    "visual-studio-code-bin",
+    "watchexec",
+    "wezterm",
+    "wget",
+    "x42-plugins",
+    "xclip",
+    "xdg-user-dirs-gtk",
+    "xorg-xinput",
+    "xorg-xkill",
+    "xorg-xsetroot",
+    "yay",
+    "yay-debug",
+    "yazi",
+    "zam-plugins",
+    "zenity",
+    "zram-generator"
+]
+
+# Packages to be installed via Flatpak.
+[managers.flatpak]
+items = [
+    "app.drey.EarTag",
+    "ca.desrt.dconf-editor",
+    "com.brave.Browser",
+    "com.discordapp.Discord",
+    "com.github.GradienceTeam.Gradience",
+    "com.github.joseexposito.touche",
+    "com.github.tchx84.Flatseal",
+    "com.mattjakeman.ExtensionManager",
+    "com.obsproject.Studio",
+    "com.simplenote.Simplenote",
+    "com.spotify.Client",
+    "com.usebottles.bottles",
+    "io.bassi.Amberol",
+    "io.github.celluloid_player.Celluloid",
+    "io.github.seadve.Kooha",
+    "it.mijorus.smile",
+    "org.gnome.Boxes",
+    "org.gnome.DejaDup",
+    "org.gnome.Geary",
+    "org.gtk.Gtk3theme.adw-gtk3",
+    "org.gtk.Gtk3theme.adw-gtk3-dark",
+    "org.kde.kdenlive",
+    "org.localsend.localsend_app",
+    "org.mozilla.firefox",
+    "org.onlyoffice.desktopeditors",
+    "org.ppsspp.PPSSPP",
+    "org.soundconverter.SoundConverter",
+    "org.telegram.desktop",
+    "page.codeberg.libre_menu_editor.LibreMenuEditor"
+]
+
+[managers.luarocks]
+items = [
+    "busted",
+    "lapis",
+    "lsqlite3",
+    "lua-cjson",
+    "lua-resty-http",
+    "lua-resty-mail",
+    "luasec",
+    "tableshape",
+    "web_sanitize"
+]
+
+[managers.gem]
+items = [
+    "json",
+    "ruby-lsp",
+    "sinatra",
+    "solargraph",
+    "yard"
+]
+
+[managers.npm]
+items = [
+    "@railway/cli",
+    "@tailwindcss/language-server",
+    "bash-language-server",
+    "blade-formatter",
+    "browser-sync",
+    "corepack",
+    "dockerfile-language-server-nodejs",
+    "emmet-language-server",
+    "intelephense",
+    "node-gyp",
+    "nopt",
+    "npm",
+    "prettier",
+    "semver",
+    "typescript-language-server",
+    "vscode-langservers-extracted"
+]
+
+# Packages to be installed via Cargo.
+[managers.cargo]
+items = [
+    # "bacon",
+]
