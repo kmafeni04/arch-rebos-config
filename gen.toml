@@ -82,6 +82,7 @@ items = [
     "polybar",
     "postgresql",
     "proton-vpn-gtk-app",
+    "python-django",
     "rebos-git",
     "redshift",
     "rofi-wayland",
@@ -155,6 +156,7 @@ items = [
 
 [managers.luarocks]
 items = [
+    "bcrypt",
     "busted",
     "lapis",
     "lsqlite3",
@@ -178,6 +180,7 @@ items = [
 [managers.npm]
 items = [
     "@railway/cli",
+    "tailwindcss",
     "@tailwindcss/language-server",
     "bash-language-server",
     "blade-formatter",
